@@ -10,9 +10,9 @@ function App() {
           paddingBottom: "1rem",
         }}
       >
-        <Link to="/invoices">About</Link> |{" "}
-        <Link to="/expenses">Menu</Link>|{" "}
-        <Link to="/expenses">What's in the Bean?</Link>
+        <Link to='/about'>About</Link> |{" "}
+        <Link to='/menu'>Menu</Link>|{" "}
+        <Link to="/whats-in-the-bean">What's in the Bean?</Link>
       </nav>
     </div>
   );
