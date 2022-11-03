@@ -1,8 +1,11 @@
+import heroPhoto from '../assets/jonas-jacobsson-1iTKoFJvJ6E-unsplash.jpg';
+
 export default function About() {
     return (
-      <h1 className="outline text-1xl font-bold underline to-blue-50">
-        Hero page
-      </h1>
+      <div className="bg-cover bg-center" style={{  backgroundRepeat: 'no-repeat',
+      width:'100%', height:'60vh', backgroundImage: `url(${heroPhoto})` }}>
+     
+      </div>
     );
   }
   

@@ -1,7 +1,26 @@
+import heroPhoto from "../assets/tyler-nix-WVl1N2C2zEA-unsplash.jpg";
+import heroPhotoTwo from "../assets/karsten-winegeart-l24eJZ9cIQk-unsplash.jpg";
 export default function Bean() {
-    return (
-      <div>
-        <p>What's in the bean page</p>
-      </div>
-    );
-  }
+  return (
+    <div>
+      <div
+        className="bg-cover bg-center"
+        style={{
+          backgroundRepeat: "no-repeat",
+          width: "100%",
+          height: "50vh",
+          backgroundImage: `url(${heroPhotoTwo})`,
+        }}
+      ></div>
+      <div
+        className="bg-cover bg-center"
+        style={{
+          backgroundRepeat: "no-repeat",
+          width: "100%",
+          height: "50vh",
+          backgroundImage: `url(${heroPhoto})`,
+        }}
+      ></div>
+    </div>
+  );
+}

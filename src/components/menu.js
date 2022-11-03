@@ -1,7 +1,7 @@
 export default function Menu() {
   return (
-    <div>
-      <p>Menu</p>
+    <div styles={{height:'100%'}}>
+      random text
     </div>
   );
 }
