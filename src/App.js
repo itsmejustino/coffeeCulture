@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
+import './index.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Coffee Culture</h1>
+    <div >
+      <h1 className="underline">Coffee Culture</h1>
       <nav
         style={{
           borderBottom: "solid 1px",
