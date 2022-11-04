@@ -7,7 +7,7 @@ function App() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-white shadow justify-between">
+    <nav className="w-full bg-white  justify-between">
       <div className="justify-between px-4 mx-auto md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
