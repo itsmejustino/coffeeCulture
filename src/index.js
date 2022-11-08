@@ -8,10 +8,10 @@ const rootElement = document.getElementById("root");
 render(
   <BrowserRouter>
    
-    <App />
+    <App path="/" element={<About/>} />
 
     <Routes>
-      <Route path="/about" element={<About/>} />
+      <Route path="/" element={<About/>} />
       <Route path="/menu" element={<Menu/>} />
       <Route path="/whats-in-the-bean" element={<Bean/>} />
     </Routes>

@@ -69,7 +69,7 @@ function App() {
           >
             <ul className="items-center justify-center space-y- md:flex md:space-x-4 md:space-y-0">
               <li >
-                <Link to="/about">
+                <Link to="/">
                   <button className="rounded-lg px-4 py-2 border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-gray-100 duration-300">
                     About
                   </button>
