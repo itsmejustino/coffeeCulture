@@ -13,7 +13,7 @@ export default function Menu() {
           backgroundImage: `url(${menuPhoto})`,
         }}
       >
-      <div className='flex justify-center items-start h-screen p-3'>
+      <div className='flex justify-center  h-screen p-3'>
       <SubMenu className='flex align-items h-96'/>
       </div>
 
