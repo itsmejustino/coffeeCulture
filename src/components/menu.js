@@ -1,5 +1,5 @@
 
-import menuPhoto from '../assets/nathan-dumlao-pMW4jzELQCw-unsplash.jpg'
+import menuPhoto from '../assets/nathan-dumlao-pMW4jzELQCw-unsplash.webp'
 import SubMenu from '../components/subMenu'
 
 export default function Menu() {

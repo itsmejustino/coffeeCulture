@@ -1,4 +1,4 @@
-import heroPhoto from '../assets/jonas-jacobsson-1iTKoFJvJ6E-unsplash.jpg';
+import heroPhoto from '../assets/jonas-jacobsson-1iTKoFJvJ6E-unsplash.webp';
 
 export default function About() {
     return (

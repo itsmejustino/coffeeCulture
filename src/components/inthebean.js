@@ -1,5 +1,5 @@
-import heroPhoto from "../assets/tyler-nix-WVl1N2C2zEA-unsplash.jpg";
-import heroPhotoTwo from "../assets/karsten-winegeart-l24eJZ9cIQk-unsplash.jpg";
+import heroPhoto from "../assets/tyler-nix-WVl1N2C2zEA-unsplash.webp";
+import heroPhotoTwo from "../assets/karsten-winegeart-l24eJZ9cIQk-unsplash.webp";
 export default function Bean() {
   return (
     <div>
